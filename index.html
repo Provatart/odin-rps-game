@@ -2,7 +2,7 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8" />
-    <script src="./js.js"></script>
+    <script defer src="./js.js"></script>
 
     <title>Rock, paper, scissors - game</title>
 
@@ -15,6 +15,7 @@
         max-width: 800px;
         min-width: 480px;
         margin: 0 auto;
+        border: 1px solid black;
       }
       
     </style>
@@ -22,7 +23,14 @@
 
   <body>
     <h1>Rock, paper, scissors - game</h1>
-<p>Go to the console)))</p>
+    <p>Press any button:</p>
+
+<button type="button" id="rock">Rock</button>
+<button type="button" id="scisssors">Scissors</button>
+<button type="button" id="paper">Paper</button>
+<p id="currentResult"></p>
+<p id ='score'></p>
+<p id = 'overallResult'></p>
 
     <script>
     
