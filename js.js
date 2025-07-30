@@ -1,9 +1,9 @@
-let body = document.body;
-let overallResult = document.querySelector("#overallResult");
-let currentResult = document.querySelector("#currentResult");
-let score = document.querySelector("#score");
-let counter = 0;
-let total = {
+const body = document.body;
+const overallResult = document.querySelector("#overallResult");
+const currentResult = document.querySelector("#currentResult");
+const score = document.querySelector("#score");
+const counter = 0;
+const total = {
   user: 0,
   comp: 0,
 };
